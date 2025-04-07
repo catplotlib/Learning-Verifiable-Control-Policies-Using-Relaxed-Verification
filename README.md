@@ -2,6 +2,8 @@
 
 ## Parameter Visualizer
 
+![Combined controller comparison showing CROWN and gradient-based approaches for both neural network and linear controllers](images/combined.png)
+
 A unified controller verification  notebook that compares different control strategies.
 
 The visualizer (`Visualizer/Parameter_Visualiser.ipynb`) provides:
