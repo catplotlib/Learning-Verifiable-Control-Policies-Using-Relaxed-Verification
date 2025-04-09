@@ -6,7 +6,7 @@
 
 A unified controller verification notebook that compares different control strategies.
 
-The visualizer (`Visualizer/Parameter_Visualiser.ipynb`) provides:
+The visualizer (`notebooks/Parameter_Visualiser.ipynb`) provides:
 - CROWN-based verification for linear and neural network controllers
 - Gradient-based verification for linear and neural network controllers
 - Visualization of reachable sets and sample trajectories
@@ -28,7 +28,7 @@ An approach that explicitly trains neural network controllers to induce invarian
 
 $$x_t \in S \implies x_{t+1} = f(x_t) \in S \text{ for all } t \geq 0$$
 
-The notebook (`Invariant_Set_Training_for_Safe_Unicycle_Navigation.ipynb`) demonstrates:
+The notebook (`notebooks/Invariant_Set_Training_for_Safe_Unicycle_Navigation.ipynb`) demonstrates:
 - Training neural network controllers with invariance objectives
 - Visualizing and verifying the resulting invariant regions
 - Evaluating the controller's reach-avoid performance with safety guarantees
