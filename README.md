@@ -43,3 +43,12 @@ The notebook (`notebooks/Quadcopter_Navigation_with_Verification_in_the_Loop.ipy
 * Training neural network controllers with differentiable reachability analysis
 * Visualizing 3D reachable sets that provably avoid obstacles
 * Computing tight verification bounds suitable for runtime monitoring
+
+### Verification-in-the-loop Training
+
+Verification-in-the-loop training incorporates reachability analysis during optimization to produce controllers whose safety properties can be formally verified with lightweight algorithms.
+The notebook (notebooks/CROWN_vs_Gradient_Verification_for_Unicycle_Navigation.ipynb) demonstrates:
+
+Training both linear and neural network controllers using verification-guided loss functions
+Implementing two distinct verification approaches (CROWN and gradient-based)
+Comparing safety guarantees and performance across controller types and verification methods
