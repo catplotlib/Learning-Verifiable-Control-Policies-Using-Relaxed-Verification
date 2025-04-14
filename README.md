@@ -32,3 +32,14 @@ The notebook (`notebooks/Invariant_Set_Training_for_Safe_Unicycle_Navigation.ipy
 - Training neural network controllers with invariance objectives
 - Visualizing and verifying the resulting invariant regions
 - Evaluating the controller's reach-avoid performance with safety guarantees
+
+### Quadcopter Navigation with Verification in the Loop
+
+![Quadcopter Navigation with Verification in the Loop](images/quad2.png)
+
+A verification-guided approach for training safe 3D quadcopter controllers:
+
+The notebook (`notebooks/Quadcopter_Navigation_with_Verification_in_the_Loop.ipynb`) demonstrates:
+* Training neural network controllers with differentiable reachability analysis
+* Visualizing 3D reachable sets that provably avoid obstacles
+* Computing tight verification bounds suitable for runtime monitoring
