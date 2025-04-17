@@ -49,6 +49,15 @@ The notebook (`notebooks/Quadcopter_Navigation_with_Verification_in_the_Loop.ipy
 Verification-in-the-loop training incorporates reachability analysis during optimization to produce controllers whose safety properties can be formally verified with lightweight algorithms.
 The notebook (notebooks/CROWN_vs_Gradient_Verification_for_Unicycle_Navigation.ipynb) demonstrates:
 
-Training both linear and neural network controllers using verification-guided loss functions
-Implementing two distinct verification approaches (CROWN and gradient-based)
-Comparing safety guarantees and performance across controller types and verification methods
+* Training both linear and neural network controllers using verification-guided loss functions
+* Implementing two distinct verification approaches (CROWN and gradient-based)
+* Comparing safety guarantees and performance across controller types and verification methods
+
+### Van der Pol Oscillator Verification Comparison
+![CROWN vs finite difference verification for Van der Pol oscillator control](images/van.png)
+A comparative study of verification methods for the Van der Pol oscillator system:
+The notebook (notebooks/1_van_comparision.py) demonstrates:
+
+* Training neural network controllers with two distinct verification approaches
+* CROWN-based verification achieving 5x faster training (38.97s total, 0.0078s per epoch)
+* Finite difference verification showing different convergence properties (178.27s total, 0.0357s per epoch)
