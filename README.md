@@ -61,3 +61,11 @@ The notebook (notebooks/1_van_comparision.py) demonstrates:
 * Training neural network controllers with two distinct verification approaches
 * CROWN-based verification achieving 5x faster training (38.97s total, 0.0078s per epoch)
 * Finite difference verification showing different convergence properties (178.27s total, 0.0357s per epoch)
+
+### Unicycle Navigation with Volume Penalty Comparison
+![Unicycle navigation with volume penalty comparision](images/volume_penalty.png)
+The notebook (notebooks/Unicycle_Navigation_with_Volume_Penalty_Comparison.ipynb) demonstrates:
+
+* Training neural network controllers with two different volume penalty weights (4.0 vs 0.05)
+* Visualizing the impact of verification bound tightness on controller behavior
+* High volume penalty (4.0) produces tighter reachable sets with more conservative trajectories. Low volume penalty (0.05) allows more exploration with larger verification bounds.
